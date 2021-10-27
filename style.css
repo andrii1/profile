@@ -20,7 +20,6 @@ h3 {
 
 a {
   color:black;
-  text-decoration: underline dotted;
 }
 a:hover {
   color: #F9CF93
@@ -55,6 +54,20 @@ a:hover {
 .list-inline > li {
   display: inline-block;
   padding: 0px 20px;
+}
+
+.button-red {
+  border-radius: 5px;
+  border:0.1em solid #f3ad4b;
+  padding: 1em;
+  font-weight: 300;
+  background-color:#F9CF93;
+  color: black;
+}
+
+.button-red:hover {
+  color:white;
+  background-color:chocolate;
 }
 
 @media (max-width: 960px) {
